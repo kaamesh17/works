@@ -7,7 +7,7 @@
     <title>NutreeSmoothies</title>
     <link rel="stylesheet" href="style.css">
     <script src="https://kit.fontawesome.com/98a179a0c5.js" crossorigin="anonymous"></script>
-    <script src="https://unpkg.com/typed.js@2.1.0/dist/typed.umd.js"></script>
+    <!-- <script src="https://unpkg.com/typed.js@2.1.0/dist/typed.umd.js"></script> -->
 </head>
 
 <body>
@@ -20,11 +20,13 @@
                     <li><a href="#Home">Home</a></li>
                     <li><a href="#Menu">Menu</a></li>
                     <li><a href="#Category">Category</a></li>
+                    <li id="logo" src="Images/new_logo.png"></li>
                     <li><a href="#about">About</a></li>
+                    <li><a href="#Blog">Blog</a></li>
                     <li><a href="#Contact">Contact</a></li>
-                    <i class="fa-solid fa-xmark" onclick="closemenu()"></i>
+                    <!-- <i class="fa-solid fa-xmark" onclick="closemenu()"></i> -->
                 </ul>
-                <i class="fa-solid fa-bars" onclick="openmenu()"></i>
+                <!-- <i class="fa-solid fa-bars" onclick="openmenu()"></i> -->
             </nav>
             <div class="header-text">
                 <p><span class="text"></span></p>
@@ -34,101 +36,7 @@
 
     </div>
 
-    <!-- -----------About Me Section---------- -->
-    <!-- <div id="about">
-        <div class="container">
-            <div class="row">
-                <div class="about-col-1">
-                    <h1 class="sub-title">Top Sellers</h1>
-                    <img src="Images/Kiwi.jpeg">
-                </div>
-
-                <div class="about-col-2">
-
-                    <p>Hi, I'm Abhishek Sharma from Mumbai, India. I'm a dedicated professional skilled in Data Science,
-                        Data Analysis, Web Development and AWS. Specializing in machine learning and statistical models,
-                        I excel in extracting insights from complex data and crafting user-friendly websites. In my role
-                        at My Service, I optimized data processes, showcasing my commitment to efficiency. Eager for
-                        collaborations in the dynamic fields of Data Science and Web Development.</p>
-
-
-                    <div class="tab-titles">
-                        <div class="tab-links active-link" onclick="opentab(event,'Skills')">Skills</div>
-                        <div class="tab-links" onclick="opentab(event,'experience')">Experience</div>
-                        <div class="tab-links" onclick="opentab(event,'education')">Education</div>
-                    </div>
-
-                    <div class="tab-contents active-tab" id="Skills">
-                        <ul>
-                            <li><span>Data Science</span><br>Data Science and Data Analysis </li>
-                            <li><span>Machine Learning</span><br>Building ML Models</li>
-                            <li><span>Web Development</span><br> Website Developer</li>
-                        </ul>
-                    </div>
-
-                    <div class="tab-contents" id="experience">
-                        <ul>
-                            <li><span>Data Operations</span><br>My Service(2022-2023)</li>
-                            <li><span>Data Analyst Intern</span><br>360Digitmg(Sep 2023-Nov 2023)</li>
-                        </ul>
-                    </div>
-
-                    <div class="tab-contents" id="education">
-                        <ul>
-                            <li><span>SK College(2019-2022)</span><br>BSc Computer Science</li>
-                        </ul>
-                    </div>
-                </div>
-            </div>
-        </div>
-
-    </div> -->
-
-
-
-
-
-    <!-- -------Services-------- -->
-
-    <!-- <div id="Services">
-        <div class="container">
-            <h1 class="sub-title">My Services</h1>
-            <div class="Services-list">
-                <div>
-                    <i class="fa-solid fa-chart-simple"></i>
-                    <h2>Data Analysis</h2>
-                    <p>Unlock the potential of your data with my expertise in Data Analysis. From deciphering intricate
-                        patterns to crafting insightful reports, I navigate through complex datasets with precision.
-                        Harness the power of data-driven decision-making and gain a competitive edge in your endeavors.
-                    </p>
-                    <a href="#">Learn more</a>
-                </div>
-
-                <div>
-                    <i class="fa-solid fa-chart-line"></i>
-                    <h2>Machine Learning</h2>
-                    <p>Elevate your projects with cutting-edge solutions through my proficiency in Machine Learning. I
-                        specialize in implementing advanced algorithms, predictive modeling, and intelligent systems.
-                        Let's transform your data into a strategic asset, enabling innovation and efficiency in every
-                        facet of your business.</p>
-                    <a href="#">Learn more</a>
-                </div>
-
-                <div>
-                    <i class="fa-solid fa-code"></i>
-                    <h2>Web Development</h2>
-                    <p>Experience the seamless fusion of creativity and functionality in Web Development. With skills
-                        spanning both front-end and back-end technologies, I craft user-friendly websites that leave a
-                        lasting impression. Elevate your online presence and provide an engaging digital experience that
-                        resonates with your audience.</p>
-                    <a href="#">Learn more</a>
-                </div>
-
-
-            </div>
-        </div>
-    </div> -->
-
+    
     <!-- ----------Top Seller----------- -->
     <div id="portfolio">
         <div class="container">
@@ -137,7 +45,9 @@
                 <div class="work">
                     <img src="Images/Mango.jpeg">
                     <div class="layer">
-                        <h3>King Smoothie</h3>
+                    </div>
+                    <div>
+                        <h3 class="smoo-txt">King Smoothie</h3>
                         <div class="rating">
                             <i class="fa fa-star"></i>
                             <i class="fa fa-star"></i>
@@ -147,14 +57,16 @@
                         </div>
                         <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Pariatur aspernatur quod
                             praesentium, exercitationem voluptatum est a </p>
-
                     </div>
                 </div>
 
                 <div class="work">
                     <img src="Images/Mango.jpeg">
                     <div class="layer">
-                        <h3>Pink Smoothie</h3>
+                        
+                    </div>
+                    <div>
+                        <h3 class="smoo-txt">Pink Smoothie</h3>
                         <div class="rating">
                             <i class="fa fa-star"></i>
                             <i class="fa fa-star"></i>
@@ -170,7 +82,10 @@
                 <div class="work">
                     <img src="Images/Mango.jpeg">
                     <div class="layer">
-                        <h3>Glow Smoothie</h3>
+                        
+                    </div>
+                    <div>
+                        <h3 class="smoo-txt">Glow Smoothie</h3>
                         <div class="rating">
                             <i class="fa fa-star"></i>
                             <i class="fa fa-star"></i>
@@ -183,20 +98,53 @@
                     </div>
                 </div>
             </div>
-            <a href="https://github.com/abhis12q?tab=repositories" taregt="_blank" class="btn">Menu</a>
+            <!-- <a href="https://github.com/abhis12q?tab=repositories" taregt="_blank" class="btn">Menu</a> -->
         </div>
     </div>
 
-    <!-------About------->
-    <div id="about">
+
+
+
+   <!------------------- Menu ---------------------->
+    <div id="menu">
+        <h1 class="sub-title">Menu</h1>
         <div class="container">
-            <h1 class="sub-title">About</h1>
-            <div class="desc">
-                <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Itaque dicta laboriosam dolore error eos
-                    odit repudiandae reprehenderit eius, ad vel illo quam quo? Culpa quisquam corporis fugiat adipisci
-                    delectus! Asperiores accusamus beatae amet nesciunt?</p>
+            <!-- <h1 class="menu-txt">This is Menu</h1> -->
+            <div id="main-menu">
+                <div class="menu-one"></div>
+                <div class="menu-two"></div>
+                <div class="menu-three"></div>
+                <div class="menu-four"></div>
             </div>
 
+            <div id="main-menu2">
+                <div class="menu-five"></div>
+                <div class="menu-six"></div>
+                <div class="menu-five"></div>
+                <div class="menu-six"></div>
+            </div>
+        </div>
+    </div>
+
+
+    <!--------------------About-------------------->
+    <div id="about">
+        <div class="container">
+            <h1 class="sub-title">About Us</h1>
+            <div class="abt-main">
+               <div class="about-txt">
+                  <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Itaque dicta laboriosam dolore error eos
+                    odit repudiandae reprehenderit eius, ad vel illo quam quo? Culpa quisquam corporis fugiat adipisci
+                    delectus! Asperiores accusamus beatae amet nesciunt Lorem, ipsum dolor sit amet consectetur adipisicing elit. Voluptatum, perferendis. Incidunt dolores cum sit provident quaerat, voluptates cupiditate voluptas tenetur consectetur aspernatur error pariatur architecto alias dignissimos nihil expedita culpa.
+                    Culpa in, iure sint ut cumque eum inventore placeat provident temporibus similique modi explicabo aliquid, adipisci saepe impedit odit sapiente deleniti. Cupiditate iste est deleniti quaerat soluta nemo eius dolore.
+                    Ea sint provident maiores velit similique? Cumque nesciunt inventore dolor odio exercitationem hic voluptatum asperiores corporis, obcaecati praesentium magni veniam animi fugit aperiam, eveniet quis expedita odit, perferendis sint nostrum!
+                   </p>
+              </div>
+
+              <div class="about-image">
+                 <img src="Images/olivemug.jpeg" alt="mug-image">
+              </div>
+            </div>
         </div>
     </div>
 
@@ -208,115 +156,126 @@
             <h1 class="sub-title">Review</h1>
             <div class="side">
                 <div id="r1" class="rev">
-                    <img src="Images/p1.jpeg" alt="Client Image" class="cimg">
+                    <div class="testimonials">
+                    <div class="cimg">
+                    <img src="Images/p1.jpeg" alt="Client Image" class="rimg">
+                    </div>
                     <h2 class="name">Elsa</h2>
+                    <div class="rating">
+                        <i class="fa fa-star"></i>
+                        <i class="fa fa-star"></i>
+                        <i class="fa fa-star"></i>
+                        <i class="fa fa-star"></i>
+                        <i class="fa fa-star-o"></i>
+                    </div>
                     <div class="comment">
-                        <p>"Lorem ipsum dolor sit amet, consectetur adipisicing elit. Itaque dicta laboriosam dolore error    
+                        <p>"Lorem ipsum dolor sit amet, consectetur adipisicing elit. Itaque dicta laboriosam dolore error Lorem, ipsum dolor. Lorem ipsum dolor sit amet, consectetur adipisicing elit. Labore, earum? Lorem ipsum dolor sit amet consectetur adipisicing elit. Nisi, commodi quo optio dolor, maxime, perferendis sit debitis facere alias doloribus voluptatum sed ex beatae ullam cum accusantium repellat. Mollitia, possimus?
+                        Sint vero maxime officia? Modi possimus eaque error ullam 
                         </p>
+                    </div>
                     </div>
                 </div>
 
                 <div id="r1" class="rev">
-                    <img src="Images/p1.jpeg" alt="Client Image" class="cimg">
+                    <div class="testimonials">
+                    <div class="cimg">
+                    <img src="Images/p1.jpeg" alt="Client Image" class="rimg">
+                    </div>
                     <h2 class="name">Elsa</h2>
+                    <div class="rating">
+                        <i class="fa fa-star"></i>
+                        <i class="fa fa-star"></i>
+                        <i class="fa fa-star"></i>
+                        <i class="fa fa-star"></i>
+                        <i class="fa fa-star-o"></i>
+                    </div>
                     <div class="comment">
-                        <p>"Lorem ipsum dolor sit amet, consectetur adipisicing elit. Itaque dicta laboriosam dolore error    
+                        <p>"Lorem ipsum dolor sit amet, consectetur adipisicing elit. Itaque dicta laboriosam dolore errorItaque dicta laboriosam dolore error Lorem, ipsum dolor. Lorem ipsum dolor sit amet, consectetur adipisicing elit. Labore, earum?  Lorem ipsum dolor sit amet consectetur adipisicing elit. Eveniet quibusdam doloremque quis voluptas praesentium, porro nam est qui excepturi eius mollitia sed earum nesciunt iusto delectus ipsam soluta, facere tempore.
+                        </p>   
                         </p>
+                    </div>
                     </div>
                 </div>
 
                 <div id="r1" class="rev">
-                    <img src="Images/p1.jpeg" alt="Client Image" class="cimg">
+                    <div class="testimonials">
+                    <div class="cimg">
+                    <img src="Images/p1.jpeg" alt="Client Image" class="rimg">
+                    </div>
                     <h2 class="name">Elsa</h2>
+                    <div class="rating">
+                        <i class="fa fa-star"></i>
+                        <i class="fa fa-star"></i>
+                        <i class="fa fa-star"></i>
+                        <i class="fa fa-star"></i>
+                        <i class="fa fa-star-o"></i>
+                    </div>
                     <div class="comment">
-                        <p>"Lorem ipsum dolor sit amet, consectetur adipisicing elit. Itaque dicta laboriosam dolore error    
+                        <p>"Lorem ipsum dolor sit amet, consectetur adipisicing elit. Itaque dicta laboriosam dolore errorItaque dicta laboriosam dolore error Lorem, ipsum dolor. Lorem ipsum dolor sit amet, consectetur adipisicing elit. Labore, earum? Lorem ipsum dolor sit amet consectetur adipisicing elit. Illo delectus saepe tempora quam, sed atque velit eligendi odio vitae, repudiandae obcaecati a optio, praesentium earum magni ea natus veniam blanditiis.
+                        Minima exercitationem,
+                        </p>    
                         </p>
+                    </div>
                     </div>
                 </div>
 
                 <div id="r1" class="rev">
-                    <img src="Images/p1.jpeg" alt="Client Image" class="cimg">
+                    <div class="testimonials">
+                    <div class="cimg">
+                    <img src="Images/p1.jpeg" alt="Client Image" class="rimg">
+                    </div>
                     <h2 class="name">Elsa</h2>
+                    <div class="rating">
+                        <i class="fa fa-star"></i>
+                        <i class="fa fa-star"></i>
+                        <i class="fa fa-star"></i>
+                        <i class="fa fa-star"></i>
+                        <i class="fa fa-star-o"></i>
+                    </div>
                     <div class="comment">
-                        <p>"Lorem ipsum dolor sit amet, consectetur adipisicing elit. Itaque dicta laboriosam dolore error    
+                        <p>"Lorem ipsum dolor sit amet, consectetur adipisicing elit. Itaque dicta laboriosam dolore errorItaque dicta laboriosam dolore error Lorem, ipsum dolor. Lorem ipsum dolor sit amet, consectetur adipisicing elit. Labore, earum? Lorem ipsum, dolor sit amet consectetur adipisicing elit. Distinctio, quidem. Lorem, ipsum dolor sit amet consectetur adipisicing elit. Minima iure velit esse id eum at! Lorem ipsum dolor sit, amet consectetur adipisicing elit. Animi veniam cumque dolor corporis alias nemo sequi modi, a temporibus commodi
+                        </p>    
                         </p>
+                    </div>
                     </div>
                 </div>
 
                 <div id="r1" class="rev">
-                    <img src="Images/p1.jpeg" alt="Client Image" class="cimg">
+                    <div class="testimonials">
+                    <div  class="cimg">
+                    <img src="Images/p1.jpeg" alt="Client Image" class="rimg">
+                    </div>
                     <h2 class="name">Elsa</h2>
+                    <div class="rating">
+                        <i class="fa fa-star"></i>
+                        <i class="fa fa-star"></i>
+                        <i class="fa fa-star"></i>
+                        <i class="fa fa-star"></i>
+                        <i class="fa fa-star-o"></i>
+                    </div>
                     <div class="comment">
-                        <p>"Lorem ipsum dolor sit amet, consectetur adipisicing elit. Itaque dicta laboriosam dolore error    
+                        <p>"Lorem ipsum dolor sit amet, consectetur adipisicing elit. Itaque dicta laboriosam dolore error Lorem ipsum dolor sit amet consectetur, adipisicing elit. Voluptas ea eum commodi voluptatibus veritatis, corporis, odit iusto dolorum, repellat et quae tempore nobis animi labore est delectus dolor autem dolore!
+                        Voluptatum, perspiciatis fuga? Tempora omnis 
                         </p>
+                    </div>
                     </div>
                 </div>
             </div>
-
-            
-
-            <!-- <div id="r2" class="rev">
-
-                <img src="Images/p3.jpeg" alt="Client Image" class="cimg">
-                <h2 class="name">Sam </h2>
-                <div class="comment">
-                    <p>"Lorem ipsum dolor sit amet, consectetur adipisicing elit. Itaque dicta laboriosam dolore error
-                    </p>
-                </div>
-
-            </div>
-
-            <div id="r3" class="rev">
-
-                <img src="Images/p3.jpeg" alt="Client Image" class="cimg">
-                <h2 class="name">Abhis</h2>
-                <div class="comment">
-                    <p>"Lorem ipsum dolor sit amet, consectetur adipisicing elit. Itaque dicta laboriosam dolore error
-                        eos
-                        odit repudiandae reprehenderit eius, ad vel illo quam quo? Culpa quisquam corporis fugia"</p>
-                </div> -->
-
             </div>
             <div class="slide">
                 <a href="#r1"></a>
                 <a href="#r2"></a>
                 <a href="#r3"></a>
             </div>
-
-
-
-
-
-
-
         </div>
     </div>
-
-    <!-- <div class="w3-container">
-        <h2>Slideshow Indicators</h2>
-        <p>An example of using buttons to indicate how many slides there are in the slideshow, and which slide the user is currently viewing.</p>
-      </div>
-      
-      <div class="w3-content w3-display-container" style="max-width:800px">
-        <img class="mySlides" src="Images/olive2bg.jpg" style="width:100%">
-        <img class="mySlides" src="Images/oranges.jpg" style="width:100%">
-        <img class="mySlides" src="Images/oranges.jpg" style="width:100%">
-
-        <div class="w3-center w3-container w3-section w3-large w3-text-white w3-display-bottommiddle" style="width:100%">
-          <div class="w3-left w3-hover-text-khaki" onclick="plusDivs(-1)">&#10094;</div>
-          <div class="w3-right w3-hover-text-khaki" onclick="plusDivs(1)">&#10095;</div>
-          <span class="w3-badge demo w3-border w3-transparent w3-hover-white" onclick="currentDiv(1)"></span>
-          <span class="w3-badge demo w3-border w3-transparent w3-hover-white" onclick="currentDiv(2)"></span>
-          <span class="w3-badge demo w3-border w3-transparent w3-hover-white" onclick="currentDiv(3)"></span>
-        </div>
-      </div> -->
 
     <!-- --------------Contact------------------- -->
     <div id="Contact">
         <div class="container">
             <div class="row">
                 <div class="contact-left">
-                    <h1 class="sub-title">Contact Me</h1>
+                    <h1 class="sub-title" id="contact">Contact Us</h1>
                     <p><i class="fa-solid fa-envelope"></i>nutreesmoothies@gmail.com</p>
                     <p><i class="fa-solid fa-phone"></i> +91 9876543210</p>
                     <div class="social-icons">
@@ -351,222 +310,5 @@
                 <p>Copyright © 2024 Nutree Smoothies.All rights reserved.</p>
             </div>
         </div>
-
-        <script>
-            var tablinks = document.getElementsByClassName("tab-links");
-            var tabcontents = document.getElementsByClassName("tab-contents");
-
-            // Function to open a tab and update the active links and tab contents.
-            function opentab(event, tabname) {
-                for (var tablink of tablinks) {
-                    tablink.classList.remove("active-link");
-                }
-                for (var tabcontent of tabcontents) {
-                    tabcontent.classList.remove("active-tab");
-                }
-
-                event.target.classList.add("active-link");
-                document.getElementById(tabname).classList.add("active-tab");
-            }
-        </script>
-
-        <script>
-            var sidemenu = document.getElementById("sidemenu");
-
-            function openmenu() {
-                sidemenu.style.right = "0";
-            }
-
-            function closemenu() {
-                sidemenu.style.right = "-200px";
-            };
-        </script>
-
-        <script>
-            const scriptURL = 'https://script.google.com/macros/s/AKfycbwxllDy2Epljtu88zYHYM08Djn2S2b5H4_623Iz9KDHwu-OghIEAmJkHQhl8vjprRyBiQ/exec';
-            const form = document.forms["submit-to-google-sheet"];
-            const msg = document.getElementById("msg");
-
-            form.addEventListener('submit', e => {
-                e.preventDefault()
-                fetch(scriptURL, { method: 'POST', body: new FormData(form) })
-                    .then(response => {
-                        msg.innerHTML = "Message sent successfully"
-                        setTimeout(function () {
-                            msg.innerHTML = "";
-                        }, 5000);
-                        form.reset();
-                    })
-                    .catch(error => console.error('Error!', error.message));
-            });
-        </script>
-
-        <!-- <script> 
-    var typed = new Typed(".text",{
-        strings: ["Data Scientist.","Data Analyst.", "Web Developer.", "Freelancer."],
-        typeSpeed: 80,
-        backSpeed: 50,
-        backDelay: 1000,
-        loop: true
-    })
- </script> -->
-
 </body>
-
-</html>
-
-
-
-<!-- <!DOCTYPE html>
-<html>
-<title>W3.CSS</title>
-<meta name="viewport" content="width=device-width, initial-scale=1">
-<link rel="stylesheet" href="https://www.w3schools.com/w3css/4/w3.css">
-<style>
-.mySlides {display:none}
-.w3-left, .w3-right, .w3-badge {cursor:pointer}
-.w3-badge {height:13px;width:13px;padding:0}
-</style>
-<body>
-
-
-
-<script>
-var slideIndex = 1;
-showDivs(slideIndex);
-
-function plusDivs(n) {
-  showDivs(slideIndex += n);
-}
-
-function currentDiv(n) {
-  showDivs(slideIndex = n);
-}
-
-function showDivs(n) {
-  var i;
-  var x = document.getElementsByClassName("mySlides");
-  var dots = document.getElementsByClassName("demo");
-  if (n > x.length) {slideIndex = 1}
-  if (n < 1) {slideIndex = x.length}
-  for (i = 0; i < x.length; i++) {
-    x[i].style.display = "none";  
-  }
-  for (i = 0; i < dots.length; i++) {
-    dots[i].className = dots[i].className.replace(" w3-white", "");
-  }
-  x[slideIndex-1].style.display = "block";  
-  dots[slideIndex-1].className += " w3-white";
-}
-</script>
-
-</body>
-</html>  -->
-
-
-<!-- <!DOCTYPE html>
-<html>
-<title>W3.CSS</title>
-<meta name="viewport" content="width=device-width, initial-scale=1">
-<link rel="stylesheet" href="https://www.w3schools.com/w3css/4/w3.css">
-<style>
-.mySlides {display:none;}
-</style>
-<body>
-
-<div class="w3-container">
-  <h2>Animated Slides</h2>
-  <p>Slide or fade in an element from the top, bottom, left or right of the screen with the w3-animate-* classes.</p>
-</div>
-
-<div class="w3-content w3-section" style="max-width:500px">
-  <img class="mySlides w3-animate-top" src="Images/background.png" style="width:100%">
-  <img class="mySlides w3-animate-bottom" src="Images/Landscape_img.jpg" style="width:100%">
-  <img class="mySlides w3-animate-top" src="Images/olive2bg.jpg" style="width:100%">
-  <img class="mySlides w3-animate-bottom" src="Images/oranges.jpg" style="width:100%">
-</div>
-
-<script>
-var myIndex = 0;
-carousel();
-
-function carousel() {
-  var i;
-  var x = document.getElementsByClassName("mySlides");
-  for (i = 0; i < x.length; i++) {
-    x[i].style.display = "none";  
-  }
-  myIndex++;
-  if (myIndex > x.length) {myIndex = 1}    
-  x[myIndex-1].style.display = "block";  
-  setTimeout(carousel, 2500);    
-}
-</script>
-
-</body>
-</html> -->
-
-<!-- 
-<!DOCTYPE html>
-<html>
-<title>W3.CSS</title>
-<meta name="viewport" content="width=device-width, initial-scale=1">
-<link rel="stylesheet" href="https://www.w3schools.com/w3css/4/w3.css">
-<style>
-.mySlides {display:none}
-.w3-left, .w3-right, .w3-badge {cursor:pointer}
-.w3-badge {height:13px;width:13px;padding:0}
-</style>
-<body>
-
-<div class="w3-container">
-  <h2>Slideshow Indicators</h2>
-  <p>An example of using buttons to indicate how many slides there are in the slideshow, and which slide the user is currently viewing.</p>
-</div>
-
-<div class="w3-content w3-display-container" style="max-width:800px">
-    <img class="mySlides w3-animate-top" src="Images/background.png" style="width:100%">
-    <img class="mySlides w3-animate-bottom" src="Images/Landscape_img.jpg" style="width:100%">
-    <img class="mySlides w3-animate-top" src="Images/olive2bg.jpg" style="width:100%">
-    <img class="mySlides w3-animate-bottom" src="Images/oranges.jpg" style="width:100%">
-  <div class="w3-center w3-container w3-section w3-large w3-text-white w3-display-bottommiddle" style="width:100%">
-    <div class="w3-left w3-hover-text-khaki" onclick="plusDivs(-1)">&#10094;</div>
-    <div class="w3-right w3-hover-text-khaki" onclick="plusDivs(1)">&#10095;</div>
-    <span class="w3-badge demo w3-border w3-transparent w3-hover-white" onclick="currentDiv(1)"></span>
-    <span class="w3-badge demo w3-border w3-transparent w3-hover-white" onclick="currentDiv(2)"></span>
-    <span class="w3-badge demo w3-border w3-transparent w3-hover-white" onclick="currentDiv(3)"></span>
-    <span class="w3-badge demo w3-border w3-transparent w3-hover-white" onclick="currentDiv(4)"></span>
-  </div>
-</div>
-
-<script>
-var slideIndex = 1;
-showDivs(slideIndex);
-
-function plusDivs(n) {
-  showDivs(slideIndex += n);
-}
-
-function currentDiv(n) {
-  showDivs(slideIndex = n);
-}
-
-function showDivs(n) {
-  var i;
-  var x = document.getElementsByClassName("mySlides");
-  var dots = document.getElementsByClassName("demo");
-  if (n > x.length) {slideIndex = 1}
-  if (n < 1) {slideIndex = x.length}
-  for (i = 0; i < x.length; i++) {
-    x[i].style.display = "none";  
-  }
-  for (i = 0; i < dots.length; i++) {
-    dots[i].className = dots[i].className.replace(" w3-white", "");
-  }
-  x[slideIndex-1].style.display = "block";  
-  dots[slideIndex-1].className += " w3-white";
-}
-</script> -->
-
-</body>
-</html> 
+</html>      
