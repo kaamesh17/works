@@ -121,10 +121,11 @@ nav ul li a:hover::after{
     /* justify-content: center; */
 /* }  */ */
 
-.menutxt{
+.menu-txt {
     display: flex;
     justify-content: center;
 }
+
 #main-menu{
     margin-top: 50px;
     display: flex;
@@ -160,7 +161,7 @@ nav ul li a:hover::after{
 #main-menu2{
     margin-top: 100px;
     display: flex;
-    justify-content: space-around;
+    justify-content: space-between;
 }
 
 .menu-five{
@@ -210,6 +211,11 @@ nav ul li a:hover::after{
     left: 50%;
     transform: translateX(-50%);
 }
+
+.abt-main{
+    display: flex;
+    justify-content: center;
+}
 /* .desc p{
     text-align: center;
     padding: 10px 20%;
@@ -231,6 +237,7 @@ nav ul li a:hover::after{
 .about-txt{
     margin-top: 50px;
     padding-left: 20px; 
+    padding-right: 300px;
 }
 
 .about-img{
