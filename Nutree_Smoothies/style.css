@@ -114,6 +114,108 @@ nav ul li a:hover::after{
     color: #ff004f;
 }
 
+/* ------------Top Sellers------------- */
+
+#portfolio{
+    padding: 50px 0px;
+}
+
+.smoo-txt{
+    padding-top: 30px;
+    font-size: xx-large;
+}
+.work-list{
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+    grid-gap: 40px;
+    margin-top: 50px;
+}
+
+.work{
+    border-radius: 10px;
+    position: relative;
+    overflow: hidden;
+    /* transition: transform 0.5s; */
+}
+
+.work img{
+    width: 100%;
+    border-radius: 10px;
+    display: block;
+    
+}
+/* 
+.layer{
+    width: 100%;
+    height: 0;
+    background: linear-gradient(rgba(0,0,0,0.6), #ff004f);
+    border-radius: 10px;
+    position: absolute;
+    left: 0;
+    bottom: 0;
+    overflow: hidden;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 0 40px;
+    flex-direction: column;
+    text-align: center;
+    font-size: 14px;
+    transition: height 0.5s;
+}*/
+
+.layer h3{
+    font-weight: 700;
+    font-size: 25px;
+    margin-bottom: 10px;
+    padding: 10px 0;
+}
+
+/* .layer a{
+    margin-top: 20px;
+    color: #ff004f;
+    text-decoration: none;
+    font-size: 18px;
+    line-height: 60px;
+    background: #fff;
+    width: 60px;
+    height: 60px;
+    text-align: center;
+    border-radius: 50%;
+}  */
+
+/* .work:hover img{
+    transform: scale(1.1);
+} */
+.work:hover{
+    transform: scale(1.1);
+}
+
+.work:hover .layer{
+    height: 100%;
+}
+.rating .fa{
+    color: #808000;
+    padding-bottom: 5px;
+}
+
+.btn{
+    display: block;
+    margin: 50px auto;
+    width: fit-content;
+    border: 3px solid  #808000;
+    padding: 14px 50px;
+    border-radius: 10px;
+    text-decoration: none;
+    font-size: 20px;
+    color: #000000;
+    transition: background 0.5s;
+}
+
+.btn:hover{
+    background:  #808000;
+}
+
 /* ------------menu--------------- */
 
 /* #menu{
@@ -135,54 +237,63 @@ nav ul li a:hover::after{
 
 .menu-one{
     background-color: black;
-    height: 100px;
-    width: 100px;
+    height: 300px;
+    width: 300px;
+    background-image: url(Images/Strawbery.jpeg);
+   
     
 }
 
 .menu-two{
     background-color: grey;
-    height: 100px;
-    width: 100px;
+    height: 300px;
+    width: 300px;
+    background-image: url(Images/Strawbery.jpeg);
 }
 
 .menu-three{
     background-color: purple;
-    height: 100px;
-    width: 100px;
+    height: 300px;
+    width: 300px;
+    background-image: url(Images/Strawbery.jpeg);
 }
 
 .menu-four{
     background-color: yellow;
-    height: 100px;
-    width: 100px;
+    height: 300px;
+    width: 300px;
+    background-image: url(Images/Strawbery.jpeg);
 }
 
 #main-menu2{
-    margin-top: 100px;
+    margin-top: 200px;
     display: flex;
     justify-content: space-between;
 }
 
 .menu-five{
     background-color: red;
-    height: 100px;
-    width: 100px;
+    height: 300px;
+    width: 300px;
+    background-image: url(Images/Strawbery.jpeg);
 }
 .menu-six{
     background-color: blue;
-    height: 100px;
-    width: 100px;
+    height: 300px;
+    width: 300px;
+    background-image: url(Images/Strawbery.jpeg);
 }
 .menu-seven{
     background-color: orange;
-    height: 100px;
-    width: 100px;
+    height: 300px;
+    width: 300px;
+    background-image: url(Images/Strawbery.jpeg);
 }
 .menu-eight{
     background-color: silver;
-    height: 100px;
-    width: 100px;
+    height: 300px;
+    width: 300px;
+    background-image: url(Images/Strawbery.jpeg);
 }
 
 /* --------------About----------------- */
@@ -302,103 +413,6 @@ nav ul li a:hover::after{
 
 }
 
-/* ------------portfolio------------- */
-
-#portfolio{
-    padding: 50px 0px;
-}
-
-.work-list{
-    display: grid;
-    grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
-    grid-gap: 40px;
-    margin-top: 50px;
-}
-
-.work{
-    border-radius: 10px;
-    position: relative;
-    overflow: hidden;
-    /* transition: transform 0.5s; */
-}
-
-.work img{
-    width: 100%;
-    border-radius: 10px;
-    display: block;
-    
-}
-/* 
-.layer{
-    width: 100%;
-    height: 0;
-    background: linear-gradient(rgba(0,0,0,0.6), #ff004f);
-    border-radius: 10px;
-    position: absolute;
-    left: 0;
-    bottom: 0;
-    overflow: hidden;
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    padding: 0 40px;
-    flex-direction: column;
-    text-align: center;
-    font-size: 14px;
-    transition: height 0.5s;
-}*/
-
-.layer h3{
-    font-weight: 700;
-    font-size: 25px;
-    margin-bottom: 10px;
-    padding: 10px 0;
-}
-
-/* .layer a{
-    margin-top: 20px;
-    color: #ff004f;
-    text-decoration: none;
-    font-size: 18px;
-    line-height: 60px;
-    background: #fff;
-    width: 60px;
-    height: 60px;
-    text-align: center;
-    border-radius: 50%;
-}  */
-
-/* .work:hover img{
-    transform: scale(1.1);
-} */
-.work:hover{
-    transform: scale(1.1);
-}
-
-.work:hover .layer{
-    height: 100%;
-}
-.rating .fa{
-    color: #808000;
-    padding-bottom: 5px;
-}
-
-.btn{
-    display: block;
-    margin: 50px auto;
-    width: fit-content;
-    border: 3px solid  #808000;
-    padding: 14px 50px;
-    border-radius: 10px;
-    text-decoration: none;
-    font-size: 20px;
-    color: #000000;
-    transition: background 0.5s;
-}
-
-.btn:hover{
-    background:  #808000;
-}
 
 /* --------------Reviews----------------- */
 
@@ -422,8 +436,16 @@ nav ul li a:hover::after{
     height: 200px;
     
 }
+.rating{
+    text-align: center;
+}
 .cimg{
     padding-left: 25px;
+    
+}
+.testimonials{
+    background: #f1f1f1;
+    color: #434343;
 }
 .name{
     text-align: center;
@@ -440,7 +462,7 @@ nav ul li a:hover::after{
 }
 
 .comment{
-    height: 400px;
+    height: 300px;
     padding-left: 30px;
 }
 
