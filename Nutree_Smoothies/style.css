@@ -231,7 +231,7 @@ nav ul li a:hover::after{
 #main-menu{
     margin-top: 50px;
     display: flex;
-    justify-content: space-between;
+    justify-content: space-evenly;
     
 }
 
@@ -268,7 +268,7 @@ nav ul li a:hover::after{
 #main-menu2{
     margin-top: 200px;
     display: flex;
-    justify-content: space-between;
+    justify-content: space-evenly;
 }
 
 .menu-five{
@@ -441,11 +441,11 @@ nav ul li a:hover::after{
 }
 .cimg{
     padding-left: 25px;
+    /* width: 700px; */
     
 }
 .testimonials{
-    background: #f1f1f1;
-    color: #434343;
+    width: 700px;
 }
 .name{
     text-align: center;
